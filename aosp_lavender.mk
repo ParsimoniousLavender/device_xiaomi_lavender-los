@@ -25,6 +25,12 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 # Inherit from lavender device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+TARGET_GAPPS_ARCH := arm64
+TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_BOOT_ANIMATION_RES := 1080
+EVO_DONATE_URL := https://paypal.me/Sap1k
+EVO_MAINTAINER := Sap1k
+EVO_SUPPORT_URL := https://t.me/EvolutionXLavender
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := lavender
 PRODUCT_MANUFACTURER := Xiaomi
